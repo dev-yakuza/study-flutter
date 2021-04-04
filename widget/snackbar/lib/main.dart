@@ -28,7 +28,28 @@ class Home extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           child: Text('Show Snackbar'),
-          onPressed: () {},
+          onPressed: () {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text('Hello world'),
+                backgroundColor: Colors.teal,
+                duration: Duration(milliseconds: 1000),
+                behavior: SnackBarBehavior.floating,
+                action: SnackBarAction(
+                  label: 'Undo',
+                  textColor: Colors.white,
+                  onPressed: () => print('Pressed'),
+                ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20),
+                  side: BorderSide(
+                    color: Colors.red,
+                    width: 2,
+                  ),
+                ),
+              ),
+            );
+          },
         ),
       ),
     );
