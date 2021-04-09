@@ -12,7 +12,10 @@ const Map<String, String> UNIT_ID = kReleaseMode
         'android': 'ca-app-pub-3940256099942544/6300978111',
       };
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await MobileAds.instance.initialize();
+
   runApp(MyApp());
 }
 
