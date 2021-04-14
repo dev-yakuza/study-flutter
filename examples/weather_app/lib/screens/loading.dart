@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert';
+
+import 'package:weather_app/data/my_location.dart';
+import 'package:weather_app/data/networks.dart';
+import 'package:weather_app/screens/weather_screen.dart';
+
+const API_KEY = '73bd07d674cc4569f650bad6f22dc79d';
 
 class Loading extends StatefulWidget {
   @override
@@ -9,37 +12,40 @@ class Loading extends StatefulWidget {
 }
 
 class _LoadingState extends State<Loading> {
-  void getLocation() async {
-    try {
-      Position position = await Geolocator.getCurrentPosition(
-          desiredAccuracy: LocationAccuracy.high);
-      print(position);
-    } catch (e) {
-      print('There was a problem with the internet connection.');
-    }
-  }
+  double latitude;
+  double longitude;
 
-  void fetchData() async {
-    http.Response response = await http.get(Uri.https(
-        'samples.openweathermap.org',
+  void getLocation() async {
+    MyLocation location = MyLocation();
+    await location.getMyCurrentLocation();
+    latitude = location.latitude;
+    longitude = location.longitude;
+
+    Networks networks = Networks(
+      Uri.https(
+        'api.openweathermap.org',
         'data/2.5/weather',
-        {'q': 'London', 'appid': 'b1b15e88fa797225412429c1c50c122a1'}));
-    if (response.statusCode == 200) {
-      var jsonData = jsonDecode(response.body);
-      var description = jsonData['weather'][0]['description'];
-      var speed = jsonData['wind']['speed'];
-      var id = jsonData['id'];
-      print(description);
-      print(speed);
-      print(id);
-    }
+        {
+          'units': 'metric',
+          'lat': latitude.toString(),
+          'lon': longitude.toString(),
+          'appid': API_KEY,
+        },
+      ),
+    );
+    var weatherData = await networks.getJsonData();
+
+    Navigator.push(context, MaterialPageRoute(builder: (context) {
+      return WeatherScreen(
+        parseWeather: weatherData,
+      );
+    }));
   }
 
   @override
   void initState() {
     super.initState();
     getLocation();
-    fetchData();
   }
 
   @override
