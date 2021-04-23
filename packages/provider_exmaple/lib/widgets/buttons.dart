@@ -3,19 +3,14 @@ import 'package:provider/provider.dart';
 import 'package:provider_exmaple/providers/counts.dart';
 
 class Buttons extends StatelessWidget {
-  Counts _countProvider;
-
   @override
   Widget build(BuildContext context) {
-    print('Buttons');
-    _countProvider = Provider.of<Counts>(context, listen: false);
-
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         ElevatedButton(
             onPressed: () {
-              _countProvider.add();
+              context.read<Counts>().add();
             },
             child: Icon(Icons.add)),
         SizedBox(
@@ -23,7 +18,7 @@ class Buttons extends StatelessWidget {
         ),
         ElevatedButton(
             onPressed: () {
-              _countProvider.remove();
+              context.read<Counts>().remove();
             },
             child: Icon(Icons.remove))
       ],

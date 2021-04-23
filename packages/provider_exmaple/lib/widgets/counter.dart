@@ -7,12 +7,10 @@ class Counter extends StatelessWidget {
   Widget build(BuildContext context) {
     print('Counter');
 
-    return Consumer<Counts>(
-      builder: (context, provider, child) => Text(
-        provider.count.toString(),
-        style: TextStyle(
-          fontSize: 20,
-        ),
+    return Text(
+      context.watch<Counts>().count.toString(),
+      style: TextStyle(
+        fontSize: 20,
       ),
     );
   }
