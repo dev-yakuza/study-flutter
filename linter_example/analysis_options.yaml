@@ -1,0 +1,8 @@
+include: package:pedantic/analysis_options.yaml
+
+analyzer:
+  errors:
+    avoid_print: warning
+linter:
+  rules:
+    - avoid_print
