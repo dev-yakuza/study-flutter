@@ -1,16 +1,17 @@
-# linter_example
+# Blog
 
-A new Flutter project.
+This repository is the example source codes of the blog.
 
-## Getting Started
+- EN: [https://dev-yakuza.posstree.com/en/flutter/](https://dev-yakuza.posstree.com/en/flutter/)
+- KO: [https://dev-yakuza.posstree.com/ko/flutter/](https://dev-yakuza.posstree.com/ko/flutter/)
+- JA: [https://dev-yakuza.posstree.com/flutter/](https://dev-yakuza.posstree.com/flutter/)
 
-This project is a starting point for a Flutter application.
+If you want to know more details about the source code, please see the above links.
 
-A few resources to get you started if this is your first Flutter project:
+## Linter
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/linter_example](https://github.com/dev-yakuza/study-flutter/tree/main/linter_example)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- EN: [[Flutter] Linter](https://dev-yakuza.posstree.com/en/flutter/linter/)
+- KO: [[Flutter] Linter](https://dev-yakuza.posstree.com/ko/flutter/linter/)
+- JA: [[Flutter] Linter](https://dev-yakuza.posstree.com/flutter/linter/)

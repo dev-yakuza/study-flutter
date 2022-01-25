@@ -1,16 +1,35 @@
-# stateless_widget
+# Blog
 
-A new Flutter project.
+This repository is the example source codes of the blog.
 
-## Getting Started
+- EN: [https://dev-yakuza.posstree.com/en/flutter/](https://dev-yakuza.posstree.com/en/flutter/)
+- KO: [https://dev-yakuza.posstree.com/ko/flutter/](https://dev-yakuza.posstree.com/ko/flutter/)
+- JA: [https://dev-yakuza.posstree.com/flutter/](https://dev-yakuza.posstree.com/flutter/)
 
-This project is a starting point for a Flutter application.
+If you want to know more details about the source code, please see the above links.
 
-A few resources to get you started if this is your first Flutter project:
+## Widget
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/widget](https://github.com/dev-yakuza/study-flutter/tree/main/widget)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- EN
+  - [[Flutter] Widget](https://dev-yakuza.posstree.com/en/flutter/widget/)
+  - [[Flutter] Image widget](https://dev-yakuza.posstree.com/en/flutter/widget/image/)
+  - [[Flutter] Snackbar widget](https://dev-yakuza.posstree.com/en/flutter/widget/snackbar/)
+  - [[Flutter] Textfield widget](https://dev-yakuza.posstree.com/en/flutter/widget/textfield/)
+  - [[Flutter] Animation](https://dev-yakuza.posstree.com/en/flutter/widget/animated/)
+  - [[Flutter] Lifecycle](https://dev-yakuza.posstree.com/en/flutter/widget/lifecycle/)
+- KO
+  - [[Flutter] 위젯](https://dev-yakuza.posstree.com/ko/flutter/widget/)
+  - [[Flutter] Image 위젯](https://dev-yakuza.posstree.com/ko/flutter/widget/image/)
+  - [[Flutter] Snackbar 위젯](https://dev-yakuza.posstree.com/ko/flutter/widget/snackbar/)
+  - [[Flutter] Textfield 위젯](https://dev-yakuza.posstree.com/ko/flutter/widget/textfield/)
+  - [[Flutter] 애니메이션](https://dev-yakuza.posstree.com/ko/flutter/widget/animated/)
+  - [[Flutter] 라이프사이클](https://dev-yakuza.posstree.com/ko/flutter/widget/lifecycle/)
+- JA
+  - [[Flutter] ウィジェット](https://dev-yakuza.posstree.com/flutter/widget/)
+  - [[Flutter] Imageウィジェット](https://dev-yakuza.posstree.com/flutter/widget/image/)
+  - [[Flutter] Snackbarウィジェット](https://dev-yakuza.posstree.com/flutter/widget/snackbar/)
+  - [[Flutter] Textfieldウィジェット](https://dev-yakuza.posstree.com/flutter/widget/textfield/)
+  - [[Flutter] アニメーション](https://dev-yakuza.posstree.com/flutter/widget/animated/)
+  - [[Flutter] ライフサイクル](https://dev-yakuza.posstree.com/flutter/widget/lifecycle/)
