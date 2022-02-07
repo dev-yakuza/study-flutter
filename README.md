@@ -124,6 +124,7 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] How to use package_info_plus to get package info](https://dev-yakuza.posstree.com/en/flutter/package_info_plus/)
   - [[Flutter] How to use device_info_plus to get device info](https://dev-yakuza.posstree.com/en/flutter/device_info_plus/)
   - [[Flutter] How to use http to call API](https://dev-yakuza.posstree.com/en/flutter/http/)
+  - [[Flutter] in_app_review](https://dev-yakuza.posstree.com/en/flutter/in_app_review/)
 - KO
   - [[Flutter] Admob](https://dev-yakuza.posstree.com/ko/flutter/admob/)
   - [[Flutter] Provider](https://dev-yakuza.posstree.com/ko/flutter/provider/)
@@ -132,6 +133,7 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] package_info_plus를 사용하여 패키지 정보 가져오기](https://dev-yakuza.posstree.com/ko/flutter/package_info_plus/)
   - [[Flutter] device_info_plus를 사용하여 디바이스 정보 가져오기](https://dev-yakuza.posstree.com/ko/flutter/device_info_plus/)
   - [[Flutter] http로 API 호출하기](https://dev-yakuza.posstree.com/ko/flutter/http/)
+  - [[Flutter] in_app_review](https://dev-yakuza.posstree.com/ko/flutter/in_app_review/)
 - JA
   - [[Flutter] Admob](https://dev-yakuza.posstree.com/flutter/admob/)
   - [[Flutter] Provider](https://dev-yakuza.posstree.com/flutter/provider/)
@@ -140,3 +142,4 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] package_info_plusを使ってパッケージ情報取得](https://dev-yakuza.posstree.com/flutter/package_info_plus/)
   - [[Flutter] device_info_plusを使ってデバイス情報取得](https://dev-yakuza.posstree.com/flutter/device_info_plus/)
   - [[Flutter] httpでAPIを呼び出す](https://dev-yakuza.posstree.com/flutter/http/)
+  - [[Flutter] in_app_review](https://dev-yakuza.posstree.com/flutter/in_app_review/)
