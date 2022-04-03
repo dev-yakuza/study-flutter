@@ -21,6 +21,7 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] How to use device_info_plus to get device info](https://dev-yakuza.posstree.com/en/flutter/device_info_plus/)
   - [[Flutter] How to use http to call API](https://dev-yakuza.posstree.com/en/flutter/http/)
   - [[Flutter] in_app_review](https://dev-yakuza.posstree.com/en/flutter/in_app_review/)
+  - [[Flutter] Local push notification](https://dev-yakuza.posstree.com/en/flutter/flutter_local_notifications/)
 - KO
   - [[Flutter] Admob](https://dev-yakuza.posstree.com/ko/flutter/admob/)
   - [[Flutter] Provider](https://dev-yakuza.posstree.com/ko/flutter/provider/)
@@ -30,6 +31,7 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] device_info_plus를 사용하여 디바이스 정보 가져오기](https://dev-yakuza.posstree.com/ko/flutter/device_info_plus/)
   - [[Flutter] http로 API 호출하기](https://dev-yakuza.posstree.com/ko/flutter/http/)
   - [[Flutter] in_app_review](https://dev-yakuza.posstree.com/ko/flutter/in_app_review/)
+  - [[Flutter] 로컬 푸시 노티피케이션](https://dev-yakuza.posstree.com/en/flutter/flutter_local_notifications/)
 - JA
   - [[Flutter] Admob](https://dev-yakuza.posstree.com/flutter/admob/)
   - [[Flutter] Provider](https://dev-yakuza.posstree.com/flutter/provider/)
@@ -39,3 +41,4 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] device_info_plusを使ってデバイス情報取得](https://dev-yakuza.posstree.com/flutter/device_info_plus/)
   - [[Flutter] httpでAPIを呼び出す](https://dev-yakuza.posstree.com/flutter/http/)
   - [[Flutter] in_app_review](https://dev-yakuza.posstree.com/flutter/in_app_review/)
+  - [[Flutter] ローカルプッシュ通知](https://dev-yakuza.posstree.com/en/flutter/flutter_local_notifications/)
