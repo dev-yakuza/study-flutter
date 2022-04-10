@@ -22,6 +22,7 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] How to use http to call API](https://dev-yakuza.posstree.com/en/flutter/http/)
   - [[Flutter] in_app_review](https://dev-yakuza.posstree.com/en/flutter/in_app_review/)
   - [[Flutter] Local push notification](https://dev-yakuza.posstree.com/en/flutter/flutter_local_notifications/)
+  - [[Flutter] WebView](https://dev-yakuza.posstree.com/en/flutter/webview_flutter/)
 - KO
   - [[Flutter] Admob](https://dev-yakuza.posstree.com/ko/flutter/admob/)
   - [[Flutter] Provider](https://dev-yakuza.posstree.com/ko/flutter/provider/)
@@ -32,6 +33,7 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] http로 API 호출하기](https://dev-yakuza.posstree.com/ko/flutter/http/)
   - [[Flutter] in_app_review](https://dev-yakuza.posstree.com/ko/flutter/in_app_review/)
   - [[Flutter] 로컬 푸시 노티피케이션](https://dev-yakuza.posstree.com/en/flutter/flutter_local_notifications/)
+  - [[Flutter] 웹뷰(WebView)](https://dev-yakuza.posstree.com/en/flutter/webview_flutter/)
 - JA
   - [[Flutter] Admob](https://dev-yakuza.posstree.com/flutter/admob/)
   - [[Flutter] Provider](https://dev-yakuza.posstree.com/flutter/provider/)
@@ -42,3 +44,4 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] httpでAPIを呼び出す](https://dev-yakuza.posstree.com/flutter/http/)
   - [[Flutter] in_app_review](https://dev-yakuza.posstree.com/flutter/in_app_review/)
   - [[Flutter] ローカルプッシュ通知](https://dev-yakuza.posstree.com/en/flutter/flutter_local_notifications/)
+  - [[Flutter] ウェブビュー(WebView)](https://dev-yakuza.posstree.com/en/flutter/webview_flutter/)
