@@ -39,7 +39,7 @@ class Home extends StatelessWidget {
     TargetPlatform os = Theme.of(context).platform;
 
     BannerAd banner = BannerAd(
-      listener: AdListener(
+      listener: BannerAdListener(
         onAdFailedToLoad: (Ad ad, LoadAdError error) {},
         onAdLoaded: (_) {},
       ),
