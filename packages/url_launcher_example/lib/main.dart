@@ -35,9 +35,11 @@ class MyHomePage extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () async {
-                const url = 'https://dev-yakuza.posstree.com/en/';
-                if (await canLaunch(url)) {
-                  launch(url);
+                final url = Uri.parse(
+                  'https://dev-yakuza.posstree.com/en/',
+                );
+                if (await canLaunchUrl(url)) {
+                  launchUrl(url);
                 } else {
                   // ignore: avoid_print
                   print("Can't launch $url");
@@ -47,10 +49,13 @@ class MyHomePage extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () async {
-                const url =
-                    'mailto:dev-yakuza@gmail.com?subject=Hello&body=Test';
-                if (await canLaunch(url)) {
-                  launch(url);
+                final url = Uri(
+                  scheme: 'mailto',
+                  path: 'dev-yakuza@gmail.com',
+                  query: 'subject=Hello&body=Test',
+                );
+                if (await canLaunchUrl(url)) {
+                  launchUrl(url);
                 } else {
                   // ignore: avoid_print
                   print("Can't launch $url");
@@ -60,9 +65,9 @@ class MyHomePage extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () async {
-                const url = 'tel:+1 555 010 999';
-                if (await canLaunch(url)) {
-                  launch(url);
+                final url = Uri.parse('tel:+1 555 010 999');
+                if (await canLaunchUrl(url)) {
+                  launchUrl(url);
                 } else {
                   // ignore: avoid_print
                   print("Can't launch $url");
@@ -72,9 +77,9 @@ class MyHomePage extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () async {
-                const url = 'sms:5550101234';
-                if (await canLaunch(url)) {
-                  launch(url);
+                final url = Uri.parse('sms:5550101234');
+                if (await canLaunchUrl(url)) {
+                  launchUrl(url);
                 } else {
                   // ignore: avoid_print
                   print("Can't launch $url");
