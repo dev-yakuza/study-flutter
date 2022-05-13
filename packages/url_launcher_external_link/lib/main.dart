@@ -33,9 +33,9 @@ class MyHomePage extends StatelessWidget {
         child: ElevatedButton(
           child: const Text('Open'),
           onPressed: () async {
-            const url = 'https://dev-yakuza.posstree.com/en/';
-            if (await canLaunch(url)) {
-              launch(url, forceSafariVC: false);
+            final url = Uri.parse('https://dev-yakuza.posstree.com/en/');
+            if (await canLaunchUrl(url)) {
+              launchUrl(url, mode: LaunchMode.externalApplication);
             }
           },
         ),
