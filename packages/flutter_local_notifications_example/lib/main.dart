@@ -38,13 +38,13 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!.addObserver(this);
+    WidgetsBinding.instance.addObserver(this);
     _init();
   }
 
   @override
   void dispose() {
-    WidgetsBinding.instance!.removeObserver(this);
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
 
@@ -67,8 +67,8 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
   }
 
   Future<void> _initializeNotification() async {
-    const IOSInitializationSettings initializationSettingsIOS =
-        IOSInitializationSettings(
+    const DarwinInitializationSettings initializationSettingsIOS =
+        DarwinInitializationSettings(
       requestAlertPermission: false,
       requestBadgePermission: false,
       requestSoundPermission: false,
@@ -129,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
           styleInformation: BigTextStyleInformation(message),
           icon: 'ic_notification',
         ),
-        iOS: const IOSNotificationDetails(
+        iOS: const DarwinNotificationDetails(
           badgeNumber: 1,
         ),
       ),
