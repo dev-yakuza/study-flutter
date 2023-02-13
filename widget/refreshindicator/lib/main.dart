@@ -50,23 +50,24 @@ class _MyHomePageState extends State<MyHomePage> {
                   );
                 },
               )
-            : SingleChildScrollView(
-                physics: const AlwaysScrollableScrollPhysics(),
-                child: SizedBox(
-                  height: MediaQuery.of(context).size.height,
-                  child: Center(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        const Text('There is not data.'),
-                        const Text('Pull to refresh.'),
-                        SizedBox(
-                          height: MediaQuery.of(context).viewPadding.bottom,
+            : LayoutBuilder(
+                builder: (context, constraints) {
+                  return SingleChildScrollView(
+                    physics: const AlwaysScrollableScrollPhysics(),
+                    child: SizedBox(
+                      height: constraints.maxHeight,
+                      child: Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: const [
+                            Text('There is not data.'),
+                            Text('Pull to refresh.'),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
-                  ),
-                ),
+                  );
+                },
               ),
       ),
     );
