@@ -1,30 +1,35 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:refreshindicator/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
+  testWidgets('Pull to refresh', (WidgetTester tester) async {
     await tester.pumpWidget(const MyApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    expect(find.text('There is not data.'), findsOneWidget);
+    expect(find.text('Apple'), findsNothing);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
+    await tester.fling(
+      find.text('There is not data.'),
+      const Offset(0.0, 300.0),
+      1000.0,
+    );
     await tester.pump();
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    expect(
+      tester.getSemantics(find.byType(RefreshProgressIndicator)),
+      matchesSemantics(label: 'Refresh'),
+    );
+
+    // finish the scroll animation
+    await tester.pump(const Duration(seconds: 1));
+    // finish the indicator settle animation
+    await tester.pump(const Duration(seconds: 1));
+    // finish the indicator hide animation
+    await tester.pump(const Duration(seconds: 1));
+
+    expect(find.text('There is not data.'), findsNothing);
+    expect(find.text('Apple'), findsOneWidget);
   });
 }
