@@ -25,7 +25,8 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] Local push notification](https://dev-yakuza.posstree.com/en/flutter/flutter_local_notifications/)
   - [[Flutter] WebView](https://dev-yakuza.posstree.com/en/flutter/webview_flutter/)
   - [[Flutter] How to use cookie with webview_flutter](https://dev-yakuza.posstree.com/en/flutter/webview_flutter/cookie/)
-  - [[Flutter] flutter_colorpicker](https://dev-yakuza.posstree.com/ko/flutter/flutter_colorpicker/)
+  - [[Flutter] flutter_colorpicker](https://dev-yakuza.posstree.com/en/flutter/flutter_colorpicker/)
+  - [[Flutter] Take a photo by Camera plugin](https://dev-yakuza.posstree.com/en/flutter/camera/)
 - KO
   - [[Flutter] Admob](https://dev-yakuza.posstree.com/ko/flutter/admob/)
   - [[Flutter] Provider](https://dev-yakuza.posstree.com/ko/flutter/provider/)
@@ -40,6 +41,7 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] 웹뷰(WebView)](https://dev-yakuza.posstree.com/ko/flutter/webview_flutter/)
   - [[Flutter] webview_flutter에서 쿠키 사용하기](https://dev-yakuza.posstree.com/ko/flutter/webview_flutter/cookie/)
   - [[Flutter] flutter_colorpicker](https://dev-yakuza.posstree.com/ko/flutter/flutter_colorpicker/)
+  - [[Flutter] Camera 플러그인을 사용하여 사진 촬영하는 방법](https://dev-yakuza.posstree.com/ko/flutter/camera/)
 - JA
   - [[Flutter] Admob](https://dev-yakuza.posstree.com/flutter/admob/)
   - [[Flutter] Provider](https://dev-yakuza.posstree.com/flutter/provider/)
@@ -54,3 +56,4 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/packages](h
   - [[Flutter] ウェブビュー(WebView)](https://dev-yakuza.posstree.com/flutter/webview_flutter/)
   - [[Flutter] webview_flutterでコッキーを使う方法](https://dev-yakuza.posstree.com/flutter/webview_flutter/cookie/)
   - [[Flutter] flutter_colorpicker](https://dev-yakuza.posstree.com/flutter/flutter_colorpicker/)
+  - [[Flutter] Cameraプラグインを使って写真を撮影する方法](https://dev-yakuza.posstree.com/flutter/camera/)
