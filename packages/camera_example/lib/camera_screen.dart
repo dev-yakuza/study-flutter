@@ -3,7 +3,12 @@ import 'package:camera_example/photo_preview.dart';
 import 'package:flutter/material.dart';
 
 class CameraScreen extends StatefulWidget {
-  const CameraScreen({super.key});
+  final CameraController? cameraController;
+
+  const CameraScreen({
+    this.cameraController,
+    super.key,
+  });
 
   @override
   State<CameraScreen> createState() => _CameraScreenState();
@@ -16,9 +21,14 @@ class _CameraScreenState extends State<CameraScreen> {
   @override
   void initState() {
     super.initState();
+    _cameraController = widget.cameraController;
+    if (_cameraController != null) {
+      _isCameraReady = true;
+      return;
+    }
 
     availableCameras().then((cameras) {
-      if (cameras.isNotEmpty && _cameraController == null) {
+      if (cameras.isNotEmpty) {
         _cameraController = CameraController(
           cameras.first,
           ResolutionPreset.medium,
