@@ -23,6 +23,7 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/widget](htt
   - [[Flutter] Fix font size by textScaleFactor](https://dev-yakuza.posstree.com/en/flutter/widget/textScaleFactor/)
   - [[Flutter] DatePicker](https://dev-yakuza.posstree.com/en/flutter/widget/showDatePicker/)
   - [[Flutter] Hide back button in AppBar](https://dev-yakuza.posstree.com/en/flutter/widget/hide_back_button/)
+  - [[Flutter] Get widget size by LayoutBuilder](https://dev-yakuza.posstree.com/en/flutter/widget/layoutbuilder/)
 - KO
   - [[Flutter] 위젯](https://dev-yakuza.posstree.com/ko/flutter/widget/)
   - [[Flutter] Image 위젯](https://dev-yakuza.posstree.com/ko/flutter/widget/image/)
@@ -34,6 +35,7 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/widget](htt
   - [[Flutter] textScaleFactor를 사용해서 폰트 크기 고정하기](https://dev-yakuza.posstree.com/ko/flutter/widget/textScaleFactor/)
   - [[Flutter] DatePicker](https://dev-yakuza.posstree.com/ko/flutter/widget/showDatePicker/)
   - [[Flutter] AppBar의 뒤로가기 버튼 없애기](https://dev-yakuza.posstree.com/ko/flutter/widget/hide_back_button/)
+  - [[Flutter] LayoutBuilder를 사용하여 위젯의 크기 구하기](https://dev-yakuza.posstree.com/ko/flutter/widget/layoutbuilder/)
 - JA
   - [[Flutter] ウィジェット](https://dev-yakuza.posstree.com/flutter/widget/)
   - [[Flutter] Imageウィジェット](https://dev-yakuza.posstree.com/flutter/widget/image/)
@@ -45,3 +47,4 @@ Example code: [https://github.com/dev-yakuza/study-flutter/tree/main/widget](htt
   - [[Flutter] textScaleFactorでフォントサイズを固定する](https://dev-yakuza.posstree.com/ko/flutter/widget/textScaleFactor/)
   - [[Flutter] DatePicker](https://dev-yakuza.posstree.com/flutter/widget/showDatePicker/)
   - [[Flutter] AppBarのバックボタンを隠す](https://dev-yakuza.posstree.com/flutter/widget/hide_back_button/)
+  - [[Flutter] LayoutBuilderを使ってウィジェットのサイズを取得する](https://dev-yakuza.posstree.com/flutter/widget/layoutbuilder/)
