@@ -33,7 +33,7 @@ class MyHomePage extends StatelessWidget {
         child: ElevatedButton(
           child: const Text('Open'),
           onPressed: () async {
-            final url = Uri.parse('https://dev-yakuza.posstree.com/en/');
+            final url = Uri.parse('https://deku.posstree.com/en/');
             if (await canLaunchUrl(url)) {
               launchUrl(url, mode: LaunchMode.externalApplication);
             }

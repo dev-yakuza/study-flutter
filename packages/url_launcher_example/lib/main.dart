@@ -36,7 +36,7 @@ class MyHomePage extends StatelessWidget {
             ElevatedButton(
               onPressed: () async {
                 final url = Uri.parse(
-                  'https://dev-yakuza.posstree.com/en/',
+                  'https://deku.posstree.com/en/',
                 );
                 if (await canLaunchUrl(url)) {
                   launchUrl(url);

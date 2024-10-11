@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: WebView(
-        initialUrl: 'https://dev-yakuza.posstree.com/en/',
+        initialUrl: 'https://deku.posstree.com/en/',
         javascriptMode: JavascriptMode.unrestricted,
         onWebViewCreated: (WebViewController webViewController) {
           _webViewController = webViewController;

@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
     return const Scaffold(
       body: SafeArea(
         child: WebView(
-          initialUrl: 'https://dev-yakuza.posstree.com/en/',
+          initialUrl: 'https://deku.posstree.com/en/',
           javascriptMode: JavascriptMode.unrestricted,
           gestureNavigationEnabled: true,
           userAgent: "random",
