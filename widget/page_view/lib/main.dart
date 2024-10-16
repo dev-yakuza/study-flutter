@@ -30,29 +30,40 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: PageView(
+      // body: PageView(
+      //   controller: pageController,
+      //   scrollDirection: Axis.vertical,
+      //   onPageChanged: (index) {
+      //     print('Page changed to $index');
+      //   },
+      //   children: [
+      //     Container(
+      //       width: double.infinity,
+      //       height: double.infinity,
+      //       color: Colors.red,
+      //     ),
+      //     Container(
+      //       width: double.infinity,
+      //       height: double.infinity,
+      //       color: Colors.blue,
+      //     ),
+      //     Container(
+      //       width: double.infinity,
+      //       height: double.infinity,
+      //       color: Colors.green,
+      //     ),
+      //   ],
+      // ),
+      body: PageView.builder(
         controller: pageController,
-        scrollDirection: Axis.vertical,
-        onPageChanged: (index) {
-          print('Page changed to $index');
+        itemCount: 10,
+        itemBuilder: (context, index) {
+          return Container(
+            width: double.infinity,
+            height: double.infinity,
+            color: index % 2 == 0 ? Colors.red : Colors.blue,
+          );
         },
-        children: [
-          Container(
-            width: double.infinity,
-            height: double.infinity,
-            color: Colors.red,
-          ),
-          Container(
-            width: double.infinity,
-            height: double.infinity,
-            color: Colors.blue,
-          ),
-          Container(
-            width: double.infinity,
-            height: double.infinity,
-            color: Colors.green,
-          ),
-        ],
       ),
     );
   }
