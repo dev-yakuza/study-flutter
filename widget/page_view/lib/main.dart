@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   final pageController = PageController(
-    initialPage: 0,
+    initialPage: 1,
   );
 
   MyHomePage({super.key});
